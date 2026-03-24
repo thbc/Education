@@ -1,4 +1,4 @@
-# Learning Unity: a powerhouse for developing interactive applications
+# Learning Unity: a versatile tool for developing interactive applications
 Unity is a Game Engine that allows cross platform development. You can build apps for computer, smartphones, VR, game consoles, web and more.
 It is used in industry applications, such as robotics, architecture, medical settings and many more.
 It has a fantastic community that helps each other in finding the right code, but it also allows work without coding. Just try it out, start opening scenes and break them.. that's the best way to learn.
