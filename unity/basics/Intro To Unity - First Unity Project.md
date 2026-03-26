@@ -8,11 +8,13 @@
 - In the Unity Hub, select _Installs_ and click _Install Editor_ and install Version 2021.3.19f1 (LTS), or the latest 2021.3 LTS version.
 ## Create A New Project
 - Click _New Project_.
-- Select _3D Core_ (it might be called _3D (Built-in Render Pipeline)_), enter a project name, location and select Unity Cloud organization. Uncheck _Connect to Unity Cloud_ and _Use Unity Version Control_.
+- Select _Universal 3D _ (you can also use 3D Built-in Render Pipeline), enter a project name, location and select Unity Cloud organization.
+- NOTE: You most likely don't need the cloud for now (clouds waste energy and hand out your data, so you should only use them when really required.
+- Uncheck _Connect to Unity Cloud_ and uncheck _Use Unity Version Control_.
 - _Create Project_.
 
   
-![000-create-project.gif](../_resources/000-create-project.gif "000-create-project.gif")
+![000-create-project.jpg](../_resources/000-create-project.jpg "000-create-project.jpg")
 
 
 ## Get to know the Editor
@@ -54,5 +56,4 @@ Play around with the scene and learn the commong shortcuts for manipulating Game
 
 
 
-## Next:
-[Intro To Unity - First Script](./Intro%20To%20Unity%20-%20First%20Script.md)
+# Next: [Intro To Unity - First Script](./Intro%20To%20Unity%20-%20First%20Script.md)
