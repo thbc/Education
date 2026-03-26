@@ -31,9 +31,9 @@ Make sure you have the Android module installed for the UnityEditor that you are
 ![000-install-android-module](../_resources/000-install-android-module.png)
 
 
-1. Open your Unity Project.
-2. Now navigate to Window > Package Manager and make sure the _Packages: Unity Registry_ dropdown is selected. This shows the available packages to install, while _In Project_ displays the packages that are already added to the project.
-3. Search for "xr" and install the _XR Plugin Management_. Once it is installed, tick _OpenXR_ under Plug-in-Providers. This will install the _OpenXR Plugin_ and will take a moment, just be patient. When asked whether you want to activate the _New Input System_ click yes. The Unity Editor will be restarted. Now also install the _XR Interaction Toolkit_.
+- Open your Unity Project.
+- Now navigate to Window > Package Manager and make sure the _Packages: Unity Registry_ dropdown is selected. This shows the available packages to install, while _In Project_ displays the packages that are already added to the project.
+- Search for "xr" and install the _XR Plugin Management_. Once it is installed, tick _OpenXR_ under Plug-in-Providers. This will install the _OpenXR Plugin_ and will take a moment, just be patient. When asked whether you want to activate the _New Input System_ click yes. The Unity Editor will be restarted. Now also install the _XR Interaction Toolkit_.
 
 
 ![100-install-xr-plugin-mgmt.png](../_resources/100-install-xr-plugin-mgmt.png)
@@ -42,25 +42,28 @@ Make sure you have the Android module installed for the UnityEditor that you are
 ![101-configure-xr-plugin-mgmt.png](../_resources/101-configure-xr-plugin-mgmt.png)
 
 
-5. Once the _OpenXR_ plugin is added, check _Meta Quest Support_ and add _Meta Quest Touch Pro Controller Profile_ to the _Interaction Profiles_. Note: Previously it was labelled _Oculus Touch Controller Profile_.
+- Once the _[OpenXR](https://docs.unity3d.com/Packages/com.unity.xr.openxr@1.16/manual/project-configuration.html#enable-the-openxr-plug-in)_ plugin is added, check _Meta Quest Support_ and add an interaction profile for the controllers (e.g. _Meta Quest Touch Pro Controller Profile_). Note: Previously it was labelled _Oculus Touch Controller Profile_.
+    Read more at: [https://docs.unity3d.com/Packages/com.unity.xr.openxr@1.16/manual/input.html#interaction-profile-features ](https://docs.unity3d.com/Packages/com.unity.xr.openxr@1.16/manual/input.html#interaction-profile-features)
+- The plugin settings are platform dependent, so as you can see in the screenshot, we are applying the settings for the Android platform.
+
 
 
 ![102-configure-xr-plugin-mgmt174043.png](../_resources/102-configure-xr-plugin-mgmt.png)
 
 
-7. Before you can build the application to your VR headset, you need to change the platform to Android, since Meta Quest is based on Android: Navigate to File > Build Settings > Choose Android as your platform and select 'Switch Platform'.
+- Before you can build the application to your VR headset, you need to change the platform to Android, since Meta Quest is based on Android: Navigate to File > Build Settings > Choose Android as your platform and select 'Switch Platform'.
 
 
 ![103-build-settings.png](../_resources/103-build-settings.png)
 
 
-9. After succesfully switching the platform, go back to _Project Settings_ and verify that everything is set up correctly by opening _Project Validation_ under _XR Plugin Management_. In case of warning signs, click on them and confirm to fix them.
+- After succesfully switching the platform, go back to _Project Settings_ and verify that everything is set up correctly by opening _Project Validation_ under _XR Plugin Management_. In case of warning signs, click on them and confirm to fix them.
 
     ![104-openxr-settings.png](../_resources/104-openxr-settings.png)
 
 
 
-11. You should be ready to build your first application now.
+- You should be ready to build your first application now.
 ## Build first application
 1. Open the _SampleScene_, right click the _Main Camera_ and convert to XR rig: _Main Camera > XR > Convert Main Camera To XR Rig_.
 
@@ -77,3 +80,8 @@ Make sure you have the Android module installed for the UnityEditor that you are
 5. Open the _Build Settings_ again. Make sure the VR headset is connected via USB and recognized: from the Run Device dropdown, select your device. If it doesn't appear, confirm that Developer Mode is on and click 'Refresh'.
 6. Click _Add Open Scenes_ and _Build And Run_.
 7. The application should be started on your headset now.
+
+
+
+
+# Next: [VR Starter Assets](./Intro%20To%20VR%20-%20StarterAssets.md)
