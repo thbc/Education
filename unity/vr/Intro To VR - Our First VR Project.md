@@ -12,6 +12,9 @@
 
 ### Creating a Meta Developer Profile
 For quick building and deploying of your own VR applications, you will need to set the device to _Developer Mode_. Meta requires you to register a developer account for this.
+
+Here is an example video for setting up your device as developer mode: <https://youtu.be/QW_uSa4kPSI>
+
 1. Go to: <https://developer.oculus.com/manage/organizations/create/>
 2. Create an account and log in.
 3. You will need to register a phone number in order to make your account a developer account.
